@@ -9,6 +9,8 @@ class Item {
   final String contactMethod;
   final bool isFound;
   final String userId;
+  final double latitude;
+  final double longitude;
 
   Item({
     required this.id,
@@ -21,5 +23,7 @@ class Item {
     required this.contactMethod,
     required this.isFound,
     required this.userId,
+    required this.latitude,
+    required this.longitude,
   });
 }

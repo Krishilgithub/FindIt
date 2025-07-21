@@ -16,6 +16,8 @@ class MockDataService {
         contactMethod: 'In-app chat',
         isFound: false,
         userId: 'u1',
+        latitude: 37.4275,
+        longitude: -122.1697,
       ),
       Item(
         id: '2',
@@ -29,6 +31,8 @@ class MockDataService {
         contactMethod: 'Phone',
         isFound: true,
         userId: 'u2',
+        latitude: 37.4280,
+        longitude: -122.1700,
       ),
       Item(
         id: '3',
@@ -42,6 +46,8 @@ class MockDataService {
         contactMethod: 'Email',
         isFound: false,
         userId: 'u3',
+        latitude: 37.4260,
+        longitude: -122.1680,
       ),
       Item(
         id: '4',
@@ -55,6 +61,8 @@ class MockDataService {
         contactMethod: 'In-app chat',
         isFound: true,
         userId: 'u4',
+        latitude: 37.4270,
+        longitude: -122.1710,
       ),
       Item(
         id: '5',
@@ -68,6 +76,8 @@ class MockDataService {
         contactMethod: 'Email',
         isFound: false,
         userId: 'u1',
+        latitude: 37.4250,
+        longitude: -122.1670,
       ),
     ];
   }
